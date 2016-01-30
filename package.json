@@ -1,0 +1,22 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael DaSilva",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammedMikey/socket-basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ProgrammedMikey/socket-basics/issues"
+  },
+  "homepage": "https://github.com/ProgrammedMikey/socket-basics#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
