@@ -9,6 +9,12 @@ app.use(express.static(__dirname + '/public'));
 io.on('connection', function (socket) { 
 	console.log('User connected via socket.io!');
 
+	socket.on('message', function (message) { 
+		console.log('Message recieved ' + message.text); 
+
+		io.emit('message', message); 
+	});
+
 	socket.emit('message', { 
 		text: "welcome to the chat application"
 	}); 
